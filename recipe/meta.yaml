@@ -13,7 +13,7 @@ build:
   track_features:
     # The "blas" package must always track a feature, else it will be
     # prioritised over all others.
-    - blas_{{ blas_impl }}
+    - feature_blas_{{ blas_impl }}
 
 {% if blas_impl != "noblas" %}
 requirements:
