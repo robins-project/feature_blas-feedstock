@@ -1,1 +1,4 @@
-# feature_blas-feedstock
+About blas
+==========
+
+Initialization of blas feature.
